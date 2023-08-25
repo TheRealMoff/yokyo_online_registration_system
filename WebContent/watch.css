@@ -1,0 +1,128 @@
+@charset "ISO-8859-1";
+
+*{
+    padding: 0;
+    margin: 0;
+}
+/*body{
+   background-color: #000;
+}*/
+
+.container {
+    margin: 0;
+}
+
+.card {
+    width: 80vw;
+    display: inline-block;
+    box-shadow: 2px 2px 20px rgb(50, 64, 63);
+    border-radius: 5px;
+    margin: 3%;
+    margin-left: 60px;
+    background-color: #fff;
+}
+
+.image img {
+    width: 100vh;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+}
+
+.title {
+    text-align: center;
+    padding: 10px 0;
+    /* background-color: #fff; */
+}
+
+h1 {
+    font-size: 20px;
+}
+
+.des {
+    padding: 2px;
+    text-align: center;
+    padding-bottom: 5px;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    /* background-color: #fff; */
+}
+
+button {
+    width: 50%;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+button:hover {
+    background-color: black;
+    color: white;
+    transition: .5s;
+    cursor: pointer;
+}
+
+.search-bar1 {
+    margin: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.search-bar1 input {
+	height: 5%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px 0 0 5px;
+}
+
+.search-bar1 button {
+	margin: -4px;
+	width: 5%;
+	height: 3%;
+    padding: 15px 10px;
+    border: none;
+    background-color: #1abc9c;
+    color: white;
+    cursor: pointer;
+    border-radius: 0 5px 5px 0;
+}
+
+.search-bar1 button i {
+    font-size: 16px;
+}
+
+.card .btn {
+   display: flex;
+   justify-content: center;
+   gap: 10px;
+   margin-top: 10px;
+   margin-bottom: 10px;
+}
+
+.card .btn a {
+   text-decoration: none;
+   color: #444;
+   background: #fff;
+   border: 1px solid;
+   display: inline-block;
+   padding: 7px 20px;
+   font-weight: bold;
+   border-radius: 3px;
+   transition: 0.3s ease-in-out;
+}
+
+.card .btn a:nth-child(1) {
+   border-color: #26a69a;
+}
+
+.card .btn a:nth-child(2) {
+   border-color: red;
+}
+
+.card .btn a:hover {
+   box-shadow: 0 3px 8px #0003;
+}
+
